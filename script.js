@@ -1,7 +1,7 @@
 var isDate = function (input) {
   //   write your code here
 	let ans=Date.parse(input);
-	if(ans!==NaN){
+	if(!isNaN(ans)){
 		return true;
 	}
 	else {
